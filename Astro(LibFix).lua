@@ -1,8 +1,8 @@
 local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib'
 
-local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local Library = loadstring(game:HttpGet(repo/Library.lua))()
 local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsWalterWhiteYO/walterthemes/main/cracked"))()
-local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo/addons/SaveManager.lua))()
 
 local Window = Library:CreateWindow({
   Title = "🌚ASTRO.CC🌚",
