@@ -1,4 +1,4 @@
-local repo = 'https://github.com/violin-suzutsuki/LinoriaLib/blob/main'
+local repo = 'https://github.com/violin-suzutsuki/LinoriaLib/tree/main'
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/refs/heads/main/Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsWalterWhiteYO/walterthemes/main/cracked"))()
