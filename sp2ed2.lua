@@ -1,4 +1,3 @@
-local niga, wtf = speed, 0
     local middle = trident.middlepart
     cheat.utility.new_renderstepped(LPH_JIT_MAX(function(delta)
         if bhop_enabled and middle and _IsKeyDown(UserInputService, Enum.KeyCode.C) and _IsKeyDown(UserInputService, Enum.KeyCode.LeftShift) then
